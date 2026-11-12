@@ -1,4 +1,4 @@
-# iminify-com
+# Iminify
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-iminify-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://iminify.com/
+Iminify provides a free online image compression service that supports JPG, PNG, WebP, and AVIF formats. Users can upload or provide URLs to compress, convert, and resize images up to 16 MB without creating an account. The platform offers a smart mode that automatically selects optimal quality, a lossless option, and API access for automated workflows. It features free tier limits of 10 images per day, with higher limits available via free account or paid plans. The service emphasizes privacy, speed, and ease of use for developers and casual users alike.
+
+**Areas:** Image Compression · API · Free · Online Tool · Formats
+
+## Iminify on APIs.io
+
+Everything profiled for Iminify is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/iminify-com/](https://apis.io/providers/iminify-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Iminify API](https://apis.io/apis/iminify-com/iminify-api/) — API for image compression and optimization
+- [Iminify API](https://apis.io/apis/iminify-com/iminify-com-api/) — Iminify API as documented publicly: 61 operations. Contract generated from the documentation by API Evangelist (2026-11-12); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Iminify Com Webhooks](https://apis.io/asyncapis/iminify-com/iminify-com-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1MonitorsResponse](https://apis.io/schemas/iminify-com/iminify-com-get-api-v1-monitors-response/)
+- [PatchApiV1Images9D3C5B8E6F0A4C1E9B7D2A4E8F1C6B35Response](https://apis.io/schemas/iminify-com/iminify-com-patch-api-v1-images9-d3-c5-b8-e6-f0-a4-c1-e9-b7-d2-a4-e8-f1-c6-b35-response/)
+- [PostApiV1GroupsResponse](https://apis.io/schemas/iminify-com/iminify-com-post-api-v1-groups-response/)
+- [PostApiV1ImagesIdRecompressRequest](https://apis.io/schemas/iminify-com/iminify-com-post-api-v1-images-id-recompress-request/)
+- [PostCrawlsRequest](https://apis.io/schemas/iminify-com/iminify-com-post-crawls-request/)
+- [PostCrawlsResponse](https://apis.io/schemas/iminify-com/iminify-com-post-crawls-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Iminify Com Context](https://apis.io/jsonld/iminify-com/iminify-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Iminify API Rules](https://apis.io/rules/iminify-com/iminify-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Iminify Authentication](https://apis.io/security/iminify-com/iminify-com-authentication/)
+- [Iminify Domain Security](https://apis.io/security/iminify-com/iminify-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Iminify Plans Pricing](https://apis.io/plans/iminify-com/iminify-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.iminify.com/)
+- [Documentation](https://www.iminify.com/docs)
+- [API reference](https://www.iminify.com/docs)
+- [Pricing](https://www.iminify.com/pricing)
+- [Blog](https://www.iminify.com/blog)
+- [Terms of service](https://www.iminify.com/terms-of-service)
+- [Privacy policy](https://www.iminify.com/privacy-policy)
+- [Status](https://status.iminify.com)
+
+## API Evangelist rating
+
+**Kin Score 55.6** — strong · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 55.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 73.2 |
+
+**Agent readiness 41.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/iminify-com/](https://apis.io/providers/iminify-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Iminify: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/iminify-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
